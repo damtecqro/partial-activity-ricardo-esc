@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class ActivityLogin extends AppCompatActivity {
@@ -17,6 +18,7 @@ public class ActivityLogin extends AppCompatActivity {
     private EditText usernameText;
     private EditText passwordText;
     private Button loginBtn;
+
 
     private String username, password;
 
@@ -48,6 +50,8 @@ public class ActivityLogin extends AppCompatActivity {
         usernameText = findViewById(R.id.username_login);
         passwordText = findViewById(R.id.password_login);
         loginBtn     = findViewById(R.id.button_login);
+
+
 
         usernameText.setText(username);
         passwordText.setText(password);

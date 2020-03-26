@@ -41,6 +41,7 @@
                     android:layout_height="240dp"
                     android:src="@drawable/pokemon_logo_min"
                     />
+
             </LinearLayout>
             <EditText
                 android:layout_width="match_parent"

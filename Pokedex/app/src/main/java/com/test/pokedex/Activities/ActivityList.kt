@@ -1,18 +1,27 @@
 package com.test.pokedex.Activities
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.View
+import android.widget.ImageView
+import android.widget.TextView
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.google.gson.JsonArray
+import com.google.gson.JsonObject
 import com.koushikdutta.ion.Ion
 import com.test.pokedex.Adapters.AdapterList
 import com.test.pokedex.R
 
 import kotlinx.android.synthetic.main.activity_list.*
+import kotlinx.android.synthetic.main.item_list.*
 
 class ActivityList : AppCompatActivity() {
 
@@ -44,7 +53,6 @@ class ActivityList : AppCompatActivity() {
     }
 
     fun initializeListeners(){
-
     }
 
     fun initializeData(){
@@ -78,4 +86,7 @@ class ActivityList : AppCompatActivity() {
 
     }
 
+
 }
+
+

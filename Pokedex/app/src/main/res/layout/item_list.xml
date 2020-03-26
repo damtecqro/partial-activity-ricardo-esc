@@ -22,7 +22,7 @@
         android:textSize="16sp"
         android:textStyle="bold"
         android:gravity="center"
-        android:id="@+id/pokemon_name"
+        android:id="@+id/textView1"
 
         />
 </LinearLayout>

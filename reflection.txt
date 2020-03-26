@@ -1,0 +1,7 @@
+Ricardo Escobar Gouyonnet- A01154945
+
+What made it easier for you to implement the view? 
+I think it was the design, I knew from the beginning how I wanted it to look, so when I got all the data from the API, making the xml was fun and playing with the different palette of colors, it was not the easiest but the funniest to do in the app.
+
+What made it difficult for you to implement the view?
+The hardest part was I think to know how I was going to get all the data from the API, it was okay in the end, but getting there was tricky just as putting all my knowledge together, I knew how things worked individually but putting them all together was challenging. 
